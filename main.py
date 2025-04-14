@@ -25,7 +25,7 @@ async def translate_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def donate(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "💸 *Apoie o YoloTranslate_bot!*\n"
-        "Se quiser me apoiar para que eu continue te ajudando, envie qualquer quantia para:\n\n"
+        "Se quiser me apoiar para que eu continue te ajudando, envie qualquer quantia de Solana para:\n\n"
         "`9XDRZZijaoEMmRmPj9a7i8CiNotwxGoV3gWzaakwFkgs`\n\n"
         "Obrigado pelo apoio! 🐸❤️",
         parse_mode="Markdown"
